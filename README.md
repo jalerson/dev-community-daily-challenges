@@ -4,6 +4,7 @@
 
 ## Challenges completed
 
-| Number | Title | Solution | Tests | Completed at  | Challenge link |
-|:------:|:-----:|:--------:|:-----:|:-------------:|----------------|
-| #1     | [String Peeler](https://github.com/jalerson/dev-community-daily-challenges/tree/master/challenges/day1) | [string_peeler.rb](https://github.com/jalerson/dev-community-daily-challenges/blob/master/challenges/day1/string_peeler.rb) | [string_peeler_spec.rb](https://github.com/jalerson/dev-community-daily-challenges/blob/master/spec/challenges/day1/string_peeler_spec.rb) | Sep 8th, 2019 | https://dev.to/thepracticaldev/daily-challenge-1-string-peeler-4nep |
+| Challenge | Solution | Tests | Completed at  |
+|:-----:|:--------:|:-----:|:-------------:|
+| [Daily Challenge #1 - String Peeler](https://dev.to/thepracticaldev/daily-challenge-1-string-peeler-4nep) | [string_peeler.rb](https://github.com/jalerson/dev-community-daily-challenges/blob/master/challenges/day1/string_peeler.rb) | [string_peeler_spec.rb](https://github.com/jalerson/dev-community-daily-challenges/blob/master/spec/challenges/day1/string_peeler_spec.rb) | Sep 8th, 2019 |
+| [Daily Challenge #2 - String Diamond](https://dev.to/thepracticaldev/daily-challenge-2-string-diamond-21n2) | [string_diamind.rb](https://github.com/jalerson/dev-community-daily-challenges/blob/master/challenges/day2/string_diamond.rb) | [string_diamond_spec.rb](https://github.com/jalerson/dev-community-daily-challenges/blob/master/spec/challenges/day2/string_diamond_spec.rb) | Sep 8th, 2019 |
