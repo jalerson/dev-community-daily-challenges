@@ -1,6 +1,6 @@
 # Dev Community Daily Challenges
 
-[The Dev Community](https://dev.to) [is posting coding challenges since June 28th](https://dev.to/thepracticaldev/daily-challenge-1-string-peeler-4nep), so I've decided to try them. I don't have plans do try it on a daily basis, however, I will try to fulfill all the challenges with automated tests while using TDD approach.
+[The Dev Community is posting coding challenges since June 28th](https://dev.to/thepracticaldev/daily-challenge-1-string-peeler-4nep), so I've decided to try them. I don't have plans do try it on a daily basis, however, I will try to fulfill all the challenges with automated tests while using TDD approach.
 
 ## Challenges completed
 
