@@ -17,7 +17,9 @@
 require 'zeitwerk'
 loader = Zeitwerk::Loader.new
 loader.push_dir('challenges')
-loader.setup # ready!
+loader.setup
+
+require 'byebug'
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
