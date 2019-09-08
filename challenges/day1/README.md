@@ -1,6 +1,6 @@
 # Daily Challenge #1 - String Peeler
 
-- Challenge: https://dev.to/thepracticaldev/daily-challenge-1-string-peeler-4nep
+https://dev.to/thepracticaldev/daily-challenge-1-string-peeler-4nep
 
 ## Description
 
