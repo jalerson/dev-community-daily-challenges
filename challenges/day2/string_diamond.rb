@@ -1,34 +1,36 @@
 module Day2
   class StringDiamond
-    def call(input)
+    attr_reader :input
+
+    def initialize(input)
+      @input = input
+    end
+
+    def call
       return if input.nil? || input.negative? || input.even?
 
-      diamond = []
-      stars = 1
-      blank = (input - stars) / 2
-      reverse = false
-
-      input.times do
-        diamond << new_layer(stars, blank)
-
-        reverse = true if stars == input
-
-        if reverse
-          stars -= 2
-          blank += 1
-        else
-          stars += 2
-          blank -= 1
-        end
-      end
-
-      diamond
+      triangle + [new_layer(input)] + triangle.reverse
     end
 
     private
 
-    def new_layer(stars, blank)
+    def triangle
+      output = []
+      stars = 1
+
+      (1..(input / 2)).each do
+        output << new_layer(stars)
+        stars += 2
+      end
+
+      output
+    end
+
+    def new_layer(stars)
+      raise ArgumentError, 'Number of stars cant be even' if stars.even?
+
       layer = []
+      blank = (input - stars) / 2
 
       blank.times { layer << ' ' }
       stars.times { layer << '*' }
